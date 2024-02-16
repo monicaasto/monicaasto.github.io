@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenedor{
+
+
+}
+.formulario{
+
+
+}
+.inputradio{
+    background-color: red;
+    margin-left: 4px;
+    width: 40px;
+}

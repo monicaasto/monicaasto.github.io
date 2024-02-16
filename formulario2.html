@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/formulario2.css">
+</head>
+<body>
+    <!---value indica el valor colocado en el imput
+        - name permite seleccionar un input
+        - type nos permite elegir el tipo de input q vamos a crear
+        - action nos permite elegir a donde enviaremos los datos
+         capturados por el formulario para q sean procesados-->
+    <div>
+        <form action="" class="formulario">
+
+            <input value="cica" placeholder="nombres" type="text">
+            <input placeholder="apellidos" type="text">
+
+            <p>sexo</p>
+            <span>hombre</span><input name="sexo" type="radio" value="M">
+            <span>mujer</span> <input name="sexo" type="radio" value="F">
+            <p>opciones</p>
+            <span>deporte</span> <input name="intereses" type="checkbox" value="deporte">
+            <span>musica</span> <input name="intereses" type="checkbox" value="musica">
+            <span>danza</span><input name="intereses" type="checkbox" value="danza">
+
+            <input type="submit" value="aceptar">
+        </form>
+    </div>
+    
+</body>
+</html>

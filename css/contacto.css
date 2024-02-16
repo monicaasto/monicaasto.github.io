@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../img/fondo.png);
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenido{
+    width: 80%;
+    max-width: 1000px;
+    min-height: 500px;
+    background-color: #f9f2e9;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.izquierda{
+    width: 100%;
+    border-radius: 20px 0 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.izquierda img{
+    width: 80%;
+}
+
+.derecha{
+    width: 100%;
+    background-color: #291e62;
+    min-height: 500px;
+    border-radius: 0 0 20px 20px;
+    padding: 50px;
+}
+
+
+.formulario p {
+    color: #c2a1dc;
+}
+
+.formulario input, .formulario textarea{
+    width: 100%;
+    border-radius: 12px;
+    padding: 8px;
+    border: none;
+    margin-top: 6px;
+    margin-bottom: 20px;
+    background-color: #f9e6fa;
+}
+
+.formulario textarea{
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100px;
+    max-height: 100px;
+}
+
+.boton{
+    background-color: #7166f1 !important;
+    color: white;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+::-webkit-input-placeholder {
+    color: #a293f4;
+  }
+
+
+@media screen and (min-width: 1000px) {
+    .derecha{
+        width: 60%;
+        border-radius: 0 20px 20px 0;
+    }
+
+    .izquierda{
+        width: 40%;
+    }
+}
